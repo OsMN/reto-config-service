@@ -1,0 +1,10 @@
+server:
+  port: 8086
+product:
+  product-name: Prueba para reto config
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
